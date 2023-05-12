@@ -42,4 +42,8 @@ export class HomeComponent {
   goToNewPlaylist(){
     this.router.navigate(['/newplaylist']);
   }
+  logout(){
+    this.userService.logout()
+    this.router.navigate(['/login']);
+  }
 }

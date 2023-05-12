@@ -1,3 +1,10 @@
-.tarjetaArtistaDiv{
-    background-color: red;
+div{
+    background-color: #000000;
+    size: 1000px;
+    color: white;
+    
+}
+img{
+    width: 200px;
+    height: 200px;
 }

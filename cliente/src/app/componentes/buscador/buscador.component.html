@@ -10,20 +10,25 @@
 </section>
 
 <section class="busquedaContainer">
-    <section class="encontradoContainer">
-        <section class="artistSection" *ngIf="cboxArtista">
-            <app-artista *ngFor="let artista of artistas | namePlaylist:getFilterName()" [artista]="artista"></app-artista>
+    <section class="encontradoContainer ">
+        <h2>Artistas</h2>
+        <section class="artistSection d-flex flex-row float-start " *ngIf="cboxArtista">
+            <app-artista *ngFor="let artista of artistas | namePlaylist:getFilterName()" [artista]="artista" ></app-artista>
         </section>
+        <h2>Albumes</h2>
         <section *ngIf="cboxAlbum">
             <p>
                 albumes for
             </p>
         </section>
+        <h2>Canciones</h2>
         <section *ngIf="cboxCancion">
             <p>
                 canciones for
             </p>
         </section>
+        
+        
     </section>
 
     <section class="filtrosSection">

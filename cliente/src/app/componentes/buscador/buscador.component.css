@@ -21,17 +21,18 @@
     justify-content: space-around;
 }
 
-.encontradoContainer{
-    border: solid 5px red;
-
-}
-
 .filtrosSection{
-    border: solid 5px red;
+    
     background-color: whitesmoke;
     margin-right: 45px;
 }
 
 .filtrosSection>p{
     color: green;
+}
+h2{
+    color: white;
+}
+svg{
+   color: rgb(0, 0, 0);
 }
